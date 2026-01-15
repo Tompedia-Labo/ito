@@ -38,7 +38,7 @@ export default function RootLayout({
       <body className={`${notoSansJP.variable} ${roboto.variable}`}>
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
-            <Box minHeight="100vh" display="flex" flexDirection="column">
+            <Box minHeight="100dvh" display="flex" flexDirection="column">
               <Box component="main" flexGrow={1}>
                 {children}
               </Box>
